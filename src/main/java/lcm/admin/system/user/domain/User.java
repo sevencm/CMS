@@ -17,7 +17,7 @@ import org.hibernate.annotations.DynamicUpdate;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name="user")
+@Table(name="sys_user")
 @DynamicInsert @DynamicUpdate
 public class User implements Serializable {
 
